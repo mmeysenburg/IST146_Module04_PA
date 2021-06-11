@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>17</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>663</x>
+      <y>663</y>
+      <w>510</w>
+      <h>357</h>
+    </coordinates>
+    <panel_attributes>Rectangle
+--
+-width: double
+-height: double
+--
++Rectangle(): ctor
++Rectangle(double width, double height): ctor
++perimeter(): double
++area(): double
++getWidth(): double
++setWidth(double width): void
++getHeight(): double
++setHeight(double height): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>952</x>
+      <y>187</y>
+      <w>612</w>
+      <h>323</h>
+    </coordinates>
+    <panel_attributes>/Shape/
+--
+-name: String
+--
++Shape(): ctor
++Shape(String name): ctor
+/+perimeter(): double/
+/+area(): double/
++getName(): String
++setName(String name): void
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1428</x>
+      <y>663</y>
+      <w>374</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>Circle
+--
+-radius: double
+--
++Circle(): ctor
++Circle(double radius): ctor
++perimeter(): double
++area(): double
++getRadius(): double
++setRadius(double radius): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>884</x>
+      <y>493</y>
+      <w>391</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;210.0;70.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>493</y>
+      <w>425</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;230.0;100.0</additional_attributes>
+  </element>
+</diagram>
