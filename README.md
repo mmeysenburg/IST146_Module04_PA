@@ -20,11 +20,11 @@
 
 ## Files in the repository
 
-`Circle.java`: Subclass of Shape, representing a circle
-`Main.java`: Main program to run the code from a user's perspective. This file's `main()` method is invoked when you click the "Run" button.
-`Shape.java`: Abstract shape superclass
-`ShapeTest.java`: JUnit4 tests for the `Circle` and `Rectangle` classes
-`shapes_uml.png`: PNG of the UML class hierarchy for this assignment
-`test.sh`: Bash script to execute the JUnit4 unit tests in `ShapeTest.java`
-`shapes.uxf`: UMLet source file for the UML class diagram
-`LICENSE`: GNU General Public License v3.0 for these materials
+* `Circle.java`: Subclass of Shape, representing a circle
+* `Main.java`: Main program to run the code from a user's perspective. This file's `main()` method is invoked when you click the "Run" button.
+* `Shape.java`: Abstract shape superclass
+* `ShapeTest.java`: JUnit4 tests for the `Circle` and `Rectangle` classes
+* `shapes_uml.png`: PNG of the UML class hierarchy for this assignment
+* `test.sh`: Bash script to execute the JUnit4 unit tests in `ShapeTest.java`
+* `shapes.uxf`: UMLet source file for the UML class diagram
+* `LICENSE`: GNU General Public License v3.0 for these materials
