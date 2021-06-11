@@ -1,6 +1,6 @@
 # IST146_Module04_PA
 
-<TODO: add README introduction>
+Now that you have gotten your hands on some Java inheritance mechanisms with the Module 4 Hands-On Activity (HOA 4), it is time to put your skills to the test in this module's Programming Assignment (PA 4). In this PA, you will add a class to the Shape hierarchy, which we have used as an example to introduce the concepts of inheritance and polymorphism in this module.
 
 ## Instructions
 
